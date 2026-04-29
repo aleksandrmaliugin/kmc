@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "array": "c",
-        "poscar_reader.h": "c",
-        "stdio.h": "c",
-        "xdatcar_writer.h": "c",
-        "structure.h": "c"
-    }
-}
