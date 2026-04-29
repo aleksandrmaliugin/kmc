@@ -1,0 +1,13 @@
+import ase
+from ase.io.vasp import read_vasp_xdatcar
+from ase.visualize import view
+
+# Укажите путь к файлу XDATCAR
+filename = 'XDATCAR'
+
+# Чтение всех конфигураций из XDATCAR
+atoms_list = read_vasp_xdatcar(filename, index=slice(None))
+
+# Визуализация первой конфигурации
+view(atoms_list)
+
